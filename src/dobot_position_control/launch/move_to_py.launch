@@ -1,0 +1,8 @@
+<launch>
+  <node
+    pkg="dobot_position_control"
+    type="draft.py"
+    name="move_to_pos"
+    output="screen"
+  />
+</launch>
